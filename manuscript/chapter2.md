@@ -1,4 +1,4 @@
-# GUIs, una primera aproximación
+# Introducción al desarrollo de GUIs
 
 ## ¿Qué es una GUI?
 
@@ -29,8 +29,6 @@ relacionados con una rutina de programación, llamados callbacks en el
 entorno MATLAB, que se ejecuta cuando sucede un determinado evento, que
 puede ser la entrada de caracteres mediante el teclado, el clic de un
 botón del mouse, o situarse sobre un objeto.
-
-# Figure y Axes
 
 ## Los objetos gráficos en MATLAB
 
@@ -109,6 +107,3 @@ características:
 
 # Eventos
 
-# Ejemplos de GUIs
-
-# Desarrollo de GUIs con GUIDE

@@ -1,6 +1,6 @@
 {mainmatter}
 
-# Fundamentos del lenguaje
+# Una introducción a MATLAB
 
 ## ¿Qué es MATLAB?
 
