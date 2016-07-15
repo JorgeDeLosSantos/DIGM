@@ -22,6 +22,53 @@
    inkscape:export-ydpi="90">
   <defs
      id="defs4">
+    <pattern
+       inkscape:stockid="Stripes 1:8 white"
+       id="Strips1_8white"
+       patternTransform="translate(0,0) scale(10,10)"
+       height="1"
+       width="9"
+       patternUnits="userSpaceOnUse"
+       inkscape:collect="always">
+      <rect
+         id="rect5762"
+         height="2"
+         width="1"
+         y="-0.5"
+         x="0"
+         style="fill:white;stroke:none" />
+    </pattern>
+    <linearGradient
+       id="linearGradient4974">
+      <stop
+         id="stop4976"
+         offset="0"
+         style="stop-color:#161dff;stop-opacity:1;" />
+      <stop
+         style="stop-color:#1f5a87;stop-opacity:0.96862745;"
+         offset="0.25682211"
+         id="stop4988" />
+      <stop
+         style="stop-color:#299710;stop-opacity:0.9372549;"
+         offset="0.25682211"
+         id="stop4986" />
+      <stop
+         style="stop-color:#3a650b;stop-opacity:0.8745098;"
+         offset="0.3752428"
+         id="stop4984" />
+      <stop
+         style="stop-color:#5d0000;stop-opacity:0.74901961;"
+         offset="0.74569237"
+         id="stop4982" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0.49803922;"
+         offset="0.86227208"
+         id="stop4980" />
+      <stop
+         id="stop4978"
+         offset="1"
+         style="stop-color:#000000;stop-opacity:0;" />
+    </linearGradient>
     <linearGradient
        inkscape:collect="always"
        id="linearGradient3848">
@@ -5396,6 +5443,687 @@
          bias="0"
          id="feConvolveMatrix4001" />
     </filter>
+    <filter
+       inkscape:label="Cubes"
+       inkscape:menu="Scatter"
+       inkscape:menu-tooltip="Scattered cubes; adjust the Morphology primitive to vary size"
+       color-interpolation-filters="sRGB"
+       id="filter3955">
+      <feTurbulence
+         baseFrequency="0.14299516908212559"
+         numOctaves="1"
+         type="fractalNoise"
+         id="feTurbulence3957" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 6 -3.5 "
+         result="result5"
+         id="feColorMatrix3959" />
+      <feComposite
+         in2="result5"
+         operator="in"
+         in="SourceGraphic"
+         result="result6"
+         id="feComposite3961" />
+      <feMorphology
+         result="result3"
+         radius="5"
+         operator="dilate"
+         in="result6"
+         id="feMorphology3963" />
+      <feDisplacementMap
+         result="result4"
+         scale="0"
+         yChannelSelector="A"
+         xChannelSelector="R"
+         in="result3"
+         in2="result3"
+         id="feDisplacementMap3965" />
+      <feComposite
+         in2="result4"
+         operator="arithmetic"
+         result="result2"
+         k1="1"
+         k3="1"
+         id="feComposite3967" />
+      <feBlend
+         mode="darken"
+         in="result2"
+         in2="result2"
+         id="feBlend3969" />
+      <feConvolveMatrix
+         order="3 3"
+         kernelMatrix="2 0 0 0 1 0 0 0 -1 "
+         targetX="1"
+         targetY="1"
+         divisor="2"
+         edgeMode="duplicate"
+         id="feConvolveMatrix3971" />
+    </filter>
+    <filter
+       inkscape:label="Cubes"
+       inkscape:menu="Scatter"
+       inkscape:menu-tooltip="Scattered cubes; adjust the Morphology primitive to vary size"
+       color-interpolation-filters="sRGB"
+       id="filter3973">
+      <feTurbulence
+         baseFrequency="0.14299516908212559"
+         numOctaves="1"
+         type="fractalNoise"
+         id="feTurbulence3975" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 6 -3.5 "
+         result="result5"
+         id="feColorMatrix3977" />
+      <feComposite
+         in2="result5"
+         operator="in"
+         in="SourceGraphic"
+         result="result6"
+         id="feComposite3979" />
+      <feMorphology
+         result="result3"
+         radius="5"
+         operator="dilate"
+         in="result6"
+         id="feMorphology3981" />
+      <feDisplacementMap
+         result="result4"
+         scale="0"
+         yChannelSelector="A"
+         xChannelSelector="R"
+         in="result3"
+         in2="result3"
+         id="feDisplacementMap3983" />
+      <feComposite
+         in2="result4"
+         operator="arithmetic"
+         result="result2"
+         k1="1"
+         k3="1"
+         id="feComposite3987" />
+      <feBlend
+         mode="darken"
+         in="result2"
+         in2="result2"
+         id="feBlend3989" />
+      <feConvolveMatrix
+         order="3 3"
+         kernelMatrix="2 0 0 0 1 0 0 0 -1 "
+         targetX="1"
+         targetY="1"
+         divisor="2"
+         edgeMode="duplicate"
+         id="feConvolveMatrix3991" />
+    </filter>
+    <filter
+       inkscape:label="Cubes"
+       inkscape:menu="Scatter"
+       inkscape:menu-tooltip="Scattered cubes; adjust the Morphology primitive to vary size"
+       color-interpolation-filters="sRGB"
+       id="filter3993">
+      <feTurbulence
+         baseFrequency="0.14299516908212559"
+         numOctaves="1"
+         type="fractalNoise"
+         id="feTurbulence3995" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 6 -3.5 "
+         result="result5"
+         id="feColorMatrix3998" />
+      <feComposite
+         in2="result5"
+         operator="in"
+         in="SourceGraphic"
+         result="result6"
+         id="feComposite4000" />
+      <feMorphology
+         result="result3"
+         radius="5"
+         operator="dilate"
+         in="result6"
+         id="feMorphology4002" />
+      <feDisplacementMap
+         result="result4"
+         scale="0"
+         yChannelSelector="A"
+         xChannelSelector="R"
+         in="result3"
+         in2="result3"
+         id="feDisplacementMap4004" />
+      <feComposite
+         in2="result4"
+         operator="arithmetic"
+         result="result2"
+         k1="1"
+         k3="1"
+         id="feComposite4006" />
+      <feBlend
+         mode="darken"
+         in="result2"
+         in2="result2"
+         id="feBlend4008" />
+      <feConvolveMatrix
+         order="3 3"
+         kernelMatrix="2 0 0 0 1 0 0 0 -1 "
+         targetX="1"
+         targetY="1"
+         divisor="2"
+         edgeMode="duplicate"
+         id="feConvolveMatrix4010" />
+    </filter>
+    <filter
+       inkscape:label="Cubes"
+       inkscape:menu="Scatter"
+       inkscape:menu-tooltip="Scattered cubes; adjust the Morphology primitive to vary size"
+       color-interpolation-filters="sRGB"
+       id="filter4012">
+      <feTurbulence
+         baseFrequency="0.14299516908212559"
+         numOctaves="1"
+         type="fractalNoise"
+         id="feTurbulence4014" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 6 -3.5 "
+         result="result5"
+         id="feColorMatrix4016" />
+      <feComposite
+         in2="result5"
+         operator="in"
+         in="SourceGraphic"
+         result="result6"
+         id="feComposite4018" />
+      <feMorphology
+         result="result3"
+         radius="5"
+         operator="dilate"
+         in="result6"
+         id="feMorphology4020" />
+      <feDisplacementMap
+         result="result4"
+         scale="0"
+         yChannelSelector="A"
+         xChannelSelector="R"
+         in="result3"
+         in2="result3"
+         id="feDisplacementMap4022" />
+      <feComposite
+         in2="result4"
+         operator="arithmetic"
+         result="result2"
+         k1="1"
+         k3="1"
+         id="feComposite4024" />
+      <feBlend
+         mode="darken"
+         in="result2"
+         in2="result2"
+         id="feBlend4026" />
+      <feConvolveMatrix
+         order="3 3"
+         kernelMatrix="2 0 0 0 1 0 0 0 -1 "
+         targetX="1"
+         targetY="1"
+         divisor="2"
+         edgeMode="duplicate"
+         id="feConvolveMatrix4028" />
+    </filter>
+    <filter
+       inkscape:label="Cubes"
+       inkscape:menu="Scatter"
+       inkscape:menu-tooltip="Scattered cubes; adjust the Morphology primitive to vary size"
+       color-interpolation-filters="sRGB"
+       id="filter4030">
+      <feTurbulence
+         baseFrequency="0.14299516908212559"
+         numOctaves="1"
+         type="fractalNoise"
+         id="feTurbulence4032" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 6 -3.5 "
+         result="result5"
+         id="feColorMatrix4034" />
+      <feComposite
+         in2="result5"
+         operator="in"
+         in="SourceGraphic"
+         result="result6"
+         id="feComposite4036" />
+      <feMorphology
+         result="result3"
+         radius="5"
+         operator="dilate"
+         in="result6"
+         id="feMorphology4038" />
+      <feDisplacementMap
+         result="result4"
+         scale="0"
+         yChannelSelector="A"
+         xChannelSelector="R"
+         in="result3"
+         in2="result3"
+         id="feDisplacementMap4040" />
+      <feComposite
+         in2="result4"
+         operator="arithmetic"
+         result="result2"
+         k1="1"
+         k3="1"
+         id="feComposite4042" />
+      <feBlend
+         mode="darken"
+         in="result2"
+         in2="result2"
+         id="feBlend4044" />
+      <feConvolveMatrix
+         order="3 3"
+         kernelMatrix="2 0 0 0 1 0 0 0 -1 "
+         targetX="1"
+         targetY="1"
+         divisor="2"
+         edgeMode="duplicate"
+         id="feConvolveMatrix4046" />
+    </filter>
+    <filter
+       inkscape:label="Cubes"
+       inkscape:menu="Scatter"
+       inkscape:menu-tooltip="Scattered cubes; adjust the Morphology primitive to vary size"
+       color-interpolation-filters="sRGB"
+       id="filter4048">
+      <feTurbulence
+         baseFrequency="0.14299516908212559"
+         numOctaves="1"
+         type="fractalNoise"
+         id="feTurbulence4050" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 6 -3.5 "
+         result="result5"
+         id="feColorMatrix4052" />
+      <feComposite
+         in2="result5"
+         operator="in"
+         in="SourceGraphic"
+         result="result6"
+         id="feComposite4054" />
+      <feMorphology
+         result="result3"
+         radius="5"
+         operator="dilate"
+         in="result6"
+         id="feMorphology4056" />
+      <feDisplacementMap
+         result="result4"
+         scale="0"
+         yChannelSelector="A"
+         xChannelSelector="R"
+         in="result3"
+         in2="result3"
+         id="feDisplacementMap4058" />
+      <feComposite
+         in2="result4"
+         operator="arithmetic"
+         result="result2"
+         k1="1"
+         k3="1"
+         id="feComposite4060" />
+      <feBlend
+         mode="darken"
+         in="result2"
+         in2="result2"
+         id="feBlend4062" />
+      <feConvolveMatrix
+         order="3 3"
+         kernelMatrix="2 0 0 0 1 0 0 0 -1 "
+         targetX="1"
+         targetY="1"
+         divisor="2"
+         edgeMode="duplicate"
+         id="feConvolveMatrix4064" />
+    </filter>
+    <filter
+       inkscape:label="Cubes"
+       inkscape:menu="Scatter"
+       inkscape:menu-tooltip="Scattered cubes; adjust the Morphology primitive to vary size"
+       color-interpolation-filters="sRGB"
+       id="filter4066">
+      <feTurbulence
+         baseFrequency="0.14299516908212559"
+         numOctaves="1"
+         type="fractalNoise"
+         id="feTurbulence4068" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 6 -3.5 "
+         result="result5"
+         id="feColorMatrix4070" />
+      <feComposite
+         in2="result5"
+         operator="in"
+         in="SourceGraphic"
+         result="result6"
+         id="feComposite4072" />
+      <feMorphology
+         result="result3"
+         radius="5"
+         operator="dilate"
+         in="result6"
+         id="feMorphology4074" />
+      <feDisplacementMap
+         result="result4"
+         scale="0"
+         yChannelSelector="A"
+         xChannelSelector="R"
+         in="result3"
+         in2="result3"
+         id="feDisplacementMap4076" />
+      <feComposite
+         in2="result4"
+         operator="arithmetic"
+         result="result2"
+         k1="1"
+         k3="1"
+         id="feComposite4078" />
+      <feBlend
+         mode="darken"
+         in="result2"
+         in2="result2"
+         id="feBlend4080" />
+      <feConvolveMatrix
+         order="3 3"
+         kernelMatrix="2 0 0 0 1 0 0 0 -1 "
+         targetX="1"
+         targetY="1"
+         divisor="2"
+         edgeMode="duplicate"
+         id="feConvolveMatrix4082" />
+    </filter>
+    <filter
+       inkscape:label="Cubes"
+       inkscape:menu="Scatter"
+       inkscape:menu-tooltip="Scattered cubes; adjust the Morphology primitive to vary size"
+       color-interpolation-filters="sRGB"
+       id="filter4084">
+      <feTurbulence
+         baseFrequency="0.14299516908212559"
+         numOctaves="1"
+         type="fractalNoise"
+         id="feTurbulence4086" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 6 -3.5 "
+         result="result5"
+         id="feColorMatrix4088" />
+      <feComposite
+         in2="result5"
+         operator="in"
+         in="SourceGraphic"
+         result="result6"
+         id="feComposite4090" />
+      <feMorphology
+         result="result3"
+         radius="5"
+         operator="dilate"
+         in="result6"
+         id="feMorphology4092" />
+      <feDisplacementMap
+         result="result4"
+         scale="0"
+         yChannelSelector="A"
+         xChannelSelector="R"
+         in="result3"
+         in2="result3"
+         id="feDisplacementMap4094" />
+      <feComposite
+         in2="result4"
+         operator="arithmetic"
+         result="result2"
+         k1="1"
+         k3="1"
+         id="feComposite4096" />
+      <feBlend
+         mode="darken"
+         in="result2"
+         in2="result2"
+         id="feBlend4098" />
+      <feConvolveMatrix
+         order="3 3"
+         kernelMatrix="2 0 0 0 1 0 0 0 -1 "
+         targetX="1"
+         targetY="1"
+         divisor="2"
+         edgeMode="duplicate"
+         id="feConvolveMatrix4100" />
+    </filter>
+    <filter
+       inkscape:label="Cubes"
+       inkscape:menu="Scatter"
+       inkscape:menu-tooltip="Scattered cubes; adjust the Morphology primitive to vary size"
+       color-interpolation-filters="sRGB"
+       id="filter4102">
+      <feTurbulence
+         baseFrequency="0.14299516908212559"
+         numOctaves="1"
+         type="fractalNoise"
+         id="feTurbulence4104" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 6 -3.5 "
+         result="result5"
+         id="feColorMatrix4106" />
+      <feComposite
+         in2="result5"
+         operator="in"
+         in="SourceGraphic"
+         result="result6"
+         id="feComposite4108" />
+      <feMorphology
+         result="result3"
+         radius="5"
+         operator="dilate"
+         in="result6"
+         id="feMorphology4110" />
+      <feDisplacementMap
+         result="result4"
+         scale="0"
+         yChannelSelector="A"
+         xChannelSelector="R"
+         in="result3"
+         in2="result3"
+         id="feDisplacementMap4112" />
+      <feComposite
+         in2="result4"
+         operator="arithmetic"
+         result="result2"
+         k1="1"
+         k3="1"
+         id="feComposite4114" />
+      <feBlend
+         mode="darken"
+         in="result2"
+         in2="result2"
+         id="feBlend4116" />
+      <feConvolveMatrix
+         order="3 3"
+         kernelMatrix="2 0 0 0 1 0 0 0 -1 "
+         targetX="1"
+         targetY="1"
+         divisor="2"
+         edgeMode="duplicate"
+         id="feConvolveMatrix4118" />
+    </filter>
+    <filter
+       inkscape:label="Cubes"
+       inkscape:menu="Scatter"
+       inkscape:menu-tooltip="Scattered cubes; adjust the Morphology primitive to vary size"
+       color-interpolation-filters="sRGB"
+       id="filter4120">
+      <feTurbulence
+         baseFrequency="0.14299516908212559"
+         numOctaves="1"
+         type="fractalNoise"
+         id="feTurbulence4122" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 6 -3.5 "
+         result="result5"
+         id="feColorMatrix4124" />
+      <feComposite
+         in2="result5"
+         operator="in"
+         in="SourceGraphic"
+         result="result6"
+         id="feComposite4126" />
+      <feMorphology
+         result="result3"
+         radius="5"
+         operator="dilate"
+         in="result6"
+         id="feMorphology4128" />
+      <feDisplacementMap
+         result="result4"
+         scale="0"
+         yChannelSelector="A"
+         xChannelSelector="R"
+         in="result3"
+         in2="result3"
+         id="feDisplacementMap4130" />
+      <feComposite
+         in2="result4"
+         operator="arithmetic"
+         result="result2"
+         k1="1"
+         k3="1"
+         id="feComposite4132" />
+      <feBlend
+         mode="darken"
+         in="result2"
+         in2="result2"
+         id="feBlend4134" />
+      <feConvolveMatrix
+         order="3 3"
+         kernelMatrix="2 0 0 0 1 0 0 0 -1 "
+         targetX="1"
+         targetY="1"
+         divisor="2"
+         edgeMode="duplicate"
+         id="feConvolveMatrix4136" />
+    </filter>
+    <filter
+       inkscape:label="Cubes"
+       inkscape:menu="Scatter"
+       inkscape:menu-tooltip="Scattered cubes; adjust the Morphology primitive to vary size"
+       color-interpolation-filters="sRGB"
+       id="filter4138">
+      <feTurbulence
+         baseFrequency="0.14299516908212559"
+         numOctaves="1"
+         type="fractalNoise"
+         id="feTurbulence4140" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 6 -3.5 "
+         result="result5"
+         id="feColorMatrix4142" />
+      <feComposite
+         in2="result5"
+         operator="in"
+         in="SourceGraphic"
+         result="result6"
+         id="feComposite4144" />
+      <feMorphology
+         result="result3"
+         radius="5"
+         operator="dilate"
+         in="result6"
+         id="feMorphology4146" />
+      <feDisplacementMap
+         result="result4"
+         scale="0"
+         yChannelSelector="A"
+         xChannelSelector="R"
+         in="result3"
+         in2="result3"
+         id="feDisplacementMap4148" />
+      <feComposite
+         in2="result4"
+         operator="arithmetic"
+         result="result2"
+         k1="1"
+         k3="1"
+         id="feComposite4150" />
+      <feBlend
+         mode="darken"
+         in="result2"
+         in2="result2"
+         id="feBlend4152" />
+      <feConvolveMatrix
+         order="3 3"
+         kernelMatrix="2 0 0 0 1 0 0 0 -1 "
+         targetX="1"
+         targetY="1"
+         divisor="2"
+         edgeMode="duplicate"
+         id="feConvolveMatrix4154" />
+    </filter>
+    <filter
+       inkscape:label="Cubes"
+       inkscape:menu="Scatter"
+       inkscape:menu-tooltip="Scattered cubes; adjust the Morphology primitive to vary size"
+       color-interpolation-filters="sRGB"
+       id="filter4156">
+      <feTurbulence
+         baseFrequency="0.14299516908212559"
+         numOctaves="1"
+         type="fractalNoise"
+         id="feTurbulence4158" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 6 -3.5 "
+         result="result5"
+         id="feColorMatrix4160" />
+      <feComposite
+         in2="result5"
+         operator="in"
+         in="SourceGraphic"
+         result="result6"
+         id="feComposite4162" />
+      <feMorphology
+         result="result3"
+         radius="5"
+         operator="dilate"
+         in="result6"
+         id="feMorphology4164" />
+      <feDisplacementMap
+         result="result4"
+         scale="0"
+         yChannelSelector="A"
+         xChannelSelector="R"
+         in="result3"
+         in2="result3"
+         id="feDisplacementMap4166" />
+      <feComposite
+         in2="result4"
+         operator="arithmetic"
+         result="result2"
+         k1="1"
+         k3="1"
+         id="feComposite4168" />
+      <feBlend
+         mode="darken"
+         in="result2"
+         in2="result2"
+         id="feBlend4170" />
+      <feConvolveMatrix
+         order="3 3"
+         kernelMatrix="2 0 0 0 1 0 0 0 -1 "
+         targetX="1"
+         targetY="1"
+         divisor="2"
+         edgeMode="duplicate"
+         id="feConvolveMatrix4172" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4974"
+       id="linearGradient4204"
+       x1="981.35455"
+       y1="-1675.7585"
+       x2="2582.7292"
+       y2="1108.8568"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -5405,8 +6133,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.13"
-     inkscape:cx="1449.6301"
-     inkscape:cy="1862.19"
+     inkscape:cx="2146.1538"
+     inkscape:cy="1816.2883"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -5442,7 +6170,7 @@
      id="layer1"
      transform="translate(0,2247.6378)">
     <rect
-       style="fill:#000000;fill-opacity:1;stroke:none"
+       style="fill:url(#Strips1_8white);fill-opacity:1.0;stroke:none"
        id="rect3889"
        width="2670.6057"
        height="3363.0552"
@@ -5482,22 +6210,27 @@
            style="font-size:72px" /></flowRegion><flowPara
          id="flowPara3400" /></flowRoot>    <text
        xml:space="preserve"
-       style="font-size:257.22918701px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#2a7fff;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
-       x="1886.2853"
-       y="-1177.474"
+       style="font-size:275.98132324px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#00d4aa;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+       x="1773.9757"
+       y="-1312.0112"
        id="text3402"
        sodipodi:linespacing="125%"
-       transform="scale(0.669012,1.4947415)"><tspan
+       transform="scale(0.71778332,1.3931781)"><tspan
          sodipodi:role="line"
-         x="1932.5061"
-         y="-1177.474"
+         x="1817.9991"
+         y="-1312.0112"
          id="tspan3406"
-         style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;text-align:center;text-anchor:middle;fill:#2a7fff;font-family:Subway;-inkscape-font-specification:Subway Heavy">Desarrollo de interfaces </tspan><tspan
+         style="font-size:245px;font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;text-align:center;text-anchor:middle;fill:#00d4aa;font-family:Subway;-inkscape-font-specification:Subway Heavy">Desarrollo de interfaces </tspan><tspan
          sodipodi:role="line"
-         x="1886.2853"
-         y="-855.9375"
-         style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;text-align:center;text-anchor:middle;fill:#2a7fff;font-family:Subway;-inkscape-font-specification:Subway Heavy"
-         id="tspan3916">gráficas con MATLAB</tspan></text>
+         x="1773.9757"
+         y="-1005.7612"
+         style="font-size:245px;font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;text-align:center;text-anchor:middle;fill:#00d4aa;font-family:Subway;-inkscape-font-specification:Subway Heavy"
+         id="tspan3916">gráficas en MATLAB</tspan><tspan
+         sodipodi:role="line"
+         x="1773.9757"
+         y="-699.51117"
+         style="font-style:normal;font-variant:normal;font-weight:900;font-stretch:normal;text-align:center;text-anchor:middle;fill:#00d4aa;font-family:Subway;-inkscape-font-specification:Subway Heavy"
+         id="tspan3921" /></text>
     <flowRoot
        xml:space="preserve"
        id="flowRoot3412"
@@ -5511,43 +6244,43 @@
          id="flowPara3418" /></flowRoot>    <g
        id="g3428"
        transform="matrix(2.3777989,0,0,3.7142047,385.97863,2119.9291)"
-       style="fill:#ffffff">
+       style="fill:#24221c">
       <flowRoot
          transform="matrix(2.3171608,0,0,1.5551978,19.114005,-1042.2965)"
-         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
+         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#24221c;fill-opacity:1;stroke:none;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono"
          id="flowRoot3420"
          xml:space="preserve"><flowRegion
            id="flowRegion3422"><rect
-             style="fill:#ffffff"
+             style="fill:#24221c"
              y="450.31128"
              x="189.90868"
              height="33.16235"
              width="345.65292"
              id="rect3424" /></flowRegion><flowPara
            id="flowPara3426"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;font-family:Arial;-inkscape-font-specification:Arial">P.J. De Los Santos</flowPara></flowRoot>    </g>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#24221c;font-family:Arial;-inkscape-font-specification:Arial">P.J. De Los Santos</flowPara></flowRoot>    </g>
     <g
        transform="matrix(0.58345523,0,0,0.58345523,55.313507,410.63162)"
        id="layer1-8"
        inkscape:label="Layer 1"
-       style="fill:#ffffff">
+       style="fill:#24221c">
       <g
          transform="matrix(0.78603024,0,0,0.78603024,-118.86597,229.75368)"
          id="g4489"
-         style="fill:#ffffff">
+         style="fill:#24221c">
         <path
-           style="fill:#ffffff;fill-opacity:1;stroke:none"
+           style="fill:#24221c;fill-opacity:1;stroke:none"
            d="m 299.9396,737.29429 c -23.25445,0.35906 -46.73617,6.87875 -67.86178,20.16582 -0.43693,0.27482 -0.87509,0.54682 -1.30768,0.82591 46.19475,-21.95767 102.52105,-6.37235 130.42402,37.99159 29.42013,46.77613 16.43335,108.48576 -29.38843,139.37131 l -2.753,1.78945 c -47.84335,30.09135 -111.00061,15.70192 -141.09195,-32.14143 -11.2048,-17.81491 -16.25298,-37.76405 -15.69218,-57.33151 -4.8863,30.41427 0.82479,62.65588 18.51401,90.78063 38.65332,61.45634 119.82961,79.94854 181.28595,41.2952 l 3.44126,-2.27123 C 434.3694,938.09655 451.15486,858.84079 413.36377,798.75532 387.99751,758.42459 344.33443,736.60881 299.9396,737.29429 z"
            id="path4033-8"
            inkscape:connector-curvature="0" />
         <path
-           style="fill:#ffffff;fill-opacity:1;stroke:none"
+           style="fill:#24221c;fill-opacity:1;stroke:none"
            d="m 279.34286,688.66369 c -20.86215,0.31424 -42.00594,4.73217 -62.29861,13.67791 -81.17073,35.78297 -117.957305,130.59647 -82.17433,211.7672 l 2.43103,5.28951 c 34.2786,70.67763 113.81865,105.17499 187.40342,84.71219 -61.29554,11.3315 -124.72941,-19.02776 -153.07507,-77.47252 l -2.16388,-4.67507 c -31.55031,-71.56928 0.8809,-155.18524 72.45019,-186.73555 71.56928,-31.55031 155.18524,0.90762 186.73555,72.4769 9.77462,22.17292 13.39114,45.49278 11.62088,68.06899 5.01233,-29.85724 1.66452,-61.48408 -11.46059,-91.25732 -26.83723,-60.87805 -86.88213,-96.79498 -149.46859,-95.85224 z"
            id="path3245"
            inkscape:connector-curvature="0" />
         <g
            id="g4484"
-           style="fill:#ffffff"
+           style="fill:#24221c"
            transform="matrix(0.70710678,0.70710678,-0.70710678,0.70710678,685.4674,59.896399)">
           <rect
              transform="matrix(0,-1,1,0,0,0)"
@@ -5557,7 +6290,7 @@
              height="8.0812197"
              width="144.95168"
              id="rect4442"
-             style="fill:#ffffff;fill-opacity:1;stroke:none" />
+             style="fill:#24221c;fill-opacity:1;stroke:none" />
           <rect
              transform="matrix(0,-1,1,0,0,0)"
              ry="3.1955297"
@@ -5566,7 +6299,7 @@
              height="8.0812197"
              width="144.95168"
              id="rect4442-1"
-             style="fill:#ffffff;fill-opacity:1;stroke:none" />
+             style="fill:#24221c;fill-opacity:1;stroke:none" />
           <rect
              transform="matrix(0,-1,1,0,0,0)"
              ry="3.1955297"
@@ -5575,7 +6308,7 @@
              height="8.0812197"
              width="144.95168"
              id="rect4442-2"
-             style="fill:#ffffff;fill-opacity:1;stroke:none" />
+             style="fill:#24221c;fill-opacity:1;stroke:none" />
         </g>
       </g>
     </g>
@@ -5590,88 +6323,131 @@
            x="-815.38464"
            y="123.07692" /></flowRegion><flowPara
          id="flowPara3924" /></flowRoot>    <rect
-       style="opacity:0.98999999;fill:#ff00ff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       style="opacity:0.98999999;fill:#ff00ff;fill-opacity:1;fill-rule:nonzero;stroke:none;filter:url(#filter4156)"
        id="rect3913"
        width="132.29628"
        height="132.29628"
-       x="945.73938"
-       y="-863.78119" />
+       x="961.12402"
+       y="-610.08887" />
     <rect
-       style="opacity:0.98999999;fill:#00ccff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       style="opacity:0.98999999;fill:#00ccff;fill-opacity:1;fill-rule:nonzero;stroke:none;filter:url(#filter4138)"
        id="rect3913-1"
        width="132.29628"
        height="132.29628"
-       x="1174.9227"
-       y="-653.9021" />
+       x="1190.3074"
+       y="-400.20981" />
     <rect
-       style="opacity:0.98999999;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       style="opacity:0.98999999;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;filter:url(#filter4120)"
        id="rect3913-7"
        width="132.29628"
        height="132.29628"
-       x="1529.2891"
-       y="-245.52739" />
+       x="1544.6737"
+       y="8.1649208" />
     <rect
-       style="opacity:0.98999999;fill:#008080;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       style="opacity:0.98999999;fill:#008080;fill-opacity:1;fill-rule:nonzero;stroke:none;filter:url(#filter4102)"
        id="rect3913-4"
        width="132.29628"
        height="132.29628"
-       x="1316.7559"
-       y="-435.0629" />
+       x="1332.1405"
+       y="-181.37059" />
     <rect
-       style="opacity:0.98999999;fill:#ff5555;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       style="opacity:0.98999999;fill:#ff5555;fill-opacity:1;fill-rule:nonzero;stroke:none;filter:url(#filter4084)"
        id="rect3913-0"
        width="132.29628"
        height="132.29628"
-       x="1380.4863"
-       y="-914.97125" />
+       x="1395.871"
+       y="-661.27893" />
     <rect
-       style="opacity:0.98999999;fill:#800080;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       style="opacity:0.98999999;fill:#800080;fill-opacity:1;fill-rule:nonzero;stroke:none;filter:url(#filter4066)"
        id="rect3913-9"
        width="132.29628"
        height="132.29628"
-       x="1450.5173"
-       y="-652.11548" />
+       x="1465.902"
+       y="-398.42319" />
     <rect
-       style="opacity:0.98999999;fill:#800000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       style="opacity:0.98999999;fill:#800000;fill-opacity:1;fill-rule:nonzero;stroke:none;filter:url(#filter4048)"
        id="rect3913-48"
        width="132.29628"
        height="132.29628"
-       x="968.87622"
-       y="-508.12048" />
+       x="984.26086"
+       y="-254.42818" />
     <rect
-       style="opacity:0.98999999;fill:#ffff00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       style="opacity:0.98999999;fill:#ffff00;fill-opacity:1;fill-rule:nonzero;stroke:none;filter:url(#filter4030)"
        id="rect3913-8"
        width="132.29628"
        height="132.29628"
-       x="740.8277"
-       y="-397.59995" />
+       x="756.21234"
+       y="-143.90764" />
     <rect
-       style="opacity:0.98999999;fill:#808000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       style="opacity:0.98999999;fill:#808000;fill-opacity:1;fill-rule:nonzero;stroke:none;filter:url(#filter4012)"
        id="rect3913-2"
        width="132.29628"
        height="132.29628"
-       x="1120.0422"
-       y="4.4556255" />
+       x="1135.4269"
+       y="258.14792" />
     <rect
-       style="opacity:0.98999999;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       style="opacity:0.98999999;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;filter:url(#filter3993)"
        id="rect3913-45"
        width="132.29628"
        height="132.29628"
-       x="832.53546"
-       y="-171.53493" />
+       x="847.9201"
+       y="82.157379" />
     <rect
-       style="opacity:0.98999999;fill:#ffdd55;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       style="opacity:0.98999999;fill:#ffdd55;fill-opacity:1;fill-rule:nonzero;stroke:none;filter:url(#filter3973)"
        id="rect3913-5"
        width="132.29628"
        height="132.29628"
-       x="1688.8413"
-       y="-585.49591" />
+       x="1704.226"
+       y="-331.80362" />
     <rect
-       style="opacity:0.98999999;fill:#e6e6e6;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       style="opacity:0.98999999000000005;fill:#999999;fill-opacity:1;fill-rule:nonzero;stroke:none;filter:url(#filter3955)"
        id="rect3913-17"
        width="132.29628"
        height="132.29628"
-       x="1142.1744"
-       y="-244.92929" />
-  </g>
+       x="1157.5591"
+       y="8.7630196" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3923"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Arial;font-style:normal;font-weight:normal;font-size:22px;line-height:125%;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:Arial;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:justify;writing-mode:lr"><flowRegion
+         id="flowRegion3925"><rect
+           id="rect3927"
+           width="1784.6155"
+           height="453.84616"
+           x="-2515.3845"
+           y="615.38464" /></flowRegion><flowPara
+         id="flowPara3929"></flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3931"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Arial;font-style:normal;font-weight:normal;font-size:22px;line-height:125%;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:Arial;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:justify;writing-mode:lr"><flowRegion
+         id="flowRegion3933"><rect
+           id="rect3935"
+           width="1553.8462"
+           height="838.46155"
+           x="-2607.6924"
+           y="330.76923" /></flowRegion><flowPara
+         id="flowPara3937"></flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3939"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Arial;font-style:normal;font-weight:normal;font-size:22px;line-height:125%;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:Arial;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:justify;writing-mode:lr"><flowRegion
+         id="flowRegion3941"><rect
+           id="rect3943"
+           width="292.30768"
+           height="484.61539"
+           x="-1392.3077"
+           y="684.61536" /></flowRegion><flowPara
+         id="flowPara3945"></flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3947"
+       style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#00d400;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       transform="translate(3246.1538,-1316.8686)"><flowRegion
+         id="flowRegion3949"><rect
+           id="rect3951"
+           width="1869.2307"
+           height="238.46156"
+           x="-2869.2307"
+           y="153.84616"
+           style="fill:#00d400" /></flowRegion><flowPara
+         id="flowPara3953"
+         style="font-size:135px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#00d400;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans">Un enfoque práctico</flowPara></flowRoot>  </g>
 </svg>
